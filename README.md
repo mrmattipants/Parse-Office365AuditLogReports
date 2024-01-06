@@ -13,4 +13,3 @@ PowerShell Script to Parse Office 365 Audit Log Reports, in .CSV Format (specifi
   - Imports and Parses the "AuditData" Column, consisting of JSON Keys/Values, from the aforementioned .CSV File.
   - Launches the Save Dialog, allowing the User to Locate the Directory, to which the Report, containing the Parsed Log Data, will be Saved.
   - Exports the Parsed Log Data, in Excel .XLSX Format, to the Chosen Save Location.
-  - 
