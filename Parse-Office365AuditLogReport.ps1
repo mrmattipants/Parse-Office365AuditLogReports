@@ -81,6 +81,8 @@ function Save-ExcelFile([string] $initialDirectory){
 
 }
 
+$Inbox = "$($CurrentDirectory)\Inbox"
+$Outbox = "$($CurrentDirectory)\Outbox"
 $UserProfile = "$($ENV:USERPROFILE)"
 $Desktop = "$($ENV:USERPROFILE)\Desktop"
 $Documents = "$($ENV:USERPROFILE)\Documents"
@@ -103,8 +105,8 @@ $Programs = "$($ENV:USERPROFILE)\AppData\Roaming\Microsoft\Windows\Start Menu\Pr
 $Startup = "$($ENV:USERPROFILE)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 $Templates = "$($ENV:USERPROFILE)\AppData\Roaming\Microsoft\Windows\Templates"
 
-$DefaultOpenFolder = "$($CurrentDirectory)\Inbox"
-$DefaultSaveFolder = "$($CurrentDirectory)\Outbox"
+$DefaultOpenFolder = "$($Inbox)"
+$DefaultSaveFolder = "$($Outbox)"
 
 $FileData = Open-CsvFile -initialDirectory "$($DefaultOpenFolder)"
 
