@@ -1,2 +1,2 @@
 
-By Default, the Resulting .XLSX File(s) will be Stored in this "Outbox" Folder, immediately after the "AuditData" has been Parsed and Output, etc.
+This is the Default Directory, to which your Parsed Office 365 Audit Logs will be Saved. Of course, you can Modify this Setting or simply Traverse your Computer Hard Drive, to the Locations, where your .CSV File, containing your Office 365 Audit Logs, has been Saved.
