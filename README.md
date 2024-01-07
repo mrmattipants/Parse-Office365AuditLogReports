@@ -13,3 +13,13 @@ PowerShell Script to Parse Office 365 Audit Log Reports, in .CSV Format (specifi
   - Imports and Parses the "AuditData" Column, consisting of JSON Keys/Values, from the aforementioned .CSV File.
   - Launches the Save Dialog, allowing the User to Locate the Directory, to which the Report, containing the Parsed Log Data, will be Saved.
   - Exports the Parsed Log Data, in Excel .XLSX Format, to the Chosen Save Location.
+ 
+**The "Inbox" DIrectory:**<br>
+- This is the Default "**Open**" Location, to which the "**Open**" Dialog will be Opened.
+- To Modify this Setting, simply Update the "**$DefaultOpenFolder**" Variable.
+
+**The "Outbox" Directory:**<br>
+- This is the Defauly "**Save**" Location, to which the "**Save**" Dialog will be Opened.
+- To Modify this Setting, simply Update the "**$DefaultSaveFolder**" Variable.
+
+**NOTE:** Please refer to the List of Default Location Variables, directly above the "**$DefaultOpenFolder**" and "**$DefaultSaveFolder**" Variables, in the .PS1 (PowerShell) Script.
